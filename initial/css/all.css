@@ -1,0 +1,11 @@
+.button {
+  background-color: blue;
+  color: white;
+  font-weight: bold;
+  padding: 25px; }
+  .button.orange {
+    background-color: orange; }
+  .button.yellow {
+    background-color: yellow; }
+  .button:hover {
+    background-color: black; }

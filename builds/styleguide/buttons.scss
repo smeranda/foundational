@@ -1,0 +1,35 @@
+// Buttons
+//
+// Button styles can be applied to anything with the `.b-button` class applied. However, typically you'll want to apply these to only `<a>` and `<button>` elements.
+//
+// markup: 		<a href="#" class="cta-button">Test</a>
+//
+// .cta-button--button 		- Normal button
+// .cta-button--orange		- Change the color to orange
+// .cta-button--yellow		- Change the color to yellow
+// :hover 		 		 	- When a user hovers
+//
+// markup:		<a href="#" class="b-button {$modifiers}">Click Me!</a>
+//
+// Styleguide 2.0
+//
+
+/** @define cta-button */
+.cta-button {
+	background-color: blue;
+	color: white;
+	font-weight: bold;
+	padding: 25px;
+
+	@include m('orange') {
+		background-color: orange;
+	}
+
+	@include m('yellow') {
+		background-color: yellow;
+	}
+
+	&:hover {
+		background-color: black;
+	}
+}

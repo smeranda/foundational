@@ -1,0 +1,55 @@
+// BEM
+//
+// Foundational support for using BEM convention in SASS files
+//
+// Styleguide 1.0
+
+@mixin element($element) {
+    &__#{$element} {
+        @content;
+    }
+}
+
+@mixin modifier($modifier) {
+    &--#{$modifier} {
+        @content;
+    }
+}
+
+// BEM Element
+//
+// The foundational function to create elements for BEM
+//
+// markup: 
+// @include e('element') {
+//     /* SCSS declarations for `.block__element` */
+// }
+// 
+// $element - element name
+//
+// Styleguide 1.1
+
+@mixin e($element) {
+    @include element($element)  {
+        @content;
+    }
+}
+
+// BEM Modifier
+//
+// The foundational function to create modifiers for BEM
+//
+// markup: 
+// @include e('modifier') {
+//     /* SCSS declarations for `.block__modifier` */
+// }
+//
+// $modifier - modifier name
+//
+// Styleguide 1.2
+
+@mixin m($modifier) {
+    @include modifier($modifier) {
+        @content;
+    }
+}

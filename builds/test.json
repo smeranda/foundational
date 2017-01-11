@@ -1,0 +1,138 @@
+{
+  "size": 272,
+  "gzipSize": 160,
+  "humanizedSize": "272B",
+  "humanizedGzipSize": "160B",
+  "rules": {
+    "total": 4,
+    "size": {
+      "graph": [
+        2,
+        1,
+        1,
+        1
+      ],
+      "max": 2,
+      "average": 1.25
+    }
+  },
+  "selectors": {
+    "total": 4,
+    "type": 1,
+    "class": 3,
+    "id": 0,
+    "pseudoClass": 0,
+    "pseudoElement": 3,
+    "values": [
+      "body",
+      ".foo::before",
+      ".bar::before",
+      ".bar::before"
+    ],
+    "specificity": {
+      "max": 11,
+      "average": 8.5
+    }
+  },
+  "declarations": {
+    "total": 5,
+    "unique": 5,
+    "properties": {
+      "background": [
+        "red"
+      ],
+      "display": [
+        "flex"
+      ],
+      "content": [
+        "\"foo on medium\"",
+        "\"bar on small\"",
+        "\"bar on medium\""
+      ]
+    }
+  },
+  "mediaQueries": {
+    "total": 2,
+    "unique": 1,
+    "values": [
+      "screen and (min-width: 769px)",
+      "screen and (min-width: 769px)"
+    ],
+    "contents": [
+      {
+        "value": "screen and (min-width: 769px)",
+        "rules": {
+          "total": 1,
+          "size": {
+            "graph": [
+              1
+            ],
+            "max": 1,
+            "average": 1
+          }
+        },
+        "selectors": {
+          "total": 1,
+          "type": 0,
+          "class": 1,
+          "id": 0,
+          "pseudoClass": 0,
+          "pseudoElement": 1,
+          "values": [
+            ".foo::before"
+          ],
+          "specificity": {
+            "max": 11,
+            "average": 11
+          }
+        },
+        "declarations": {
+          "total": 1,
+          "unique": 1,
+          "properties": {
+            "content": [
+              "\"foo on medium\""
+            ]
+          }
+        }
+      },
+      {
+        "value": "screen and (min-width: 769px)",
+        "rules": {
+          "total": 1,
+          "size": {
+            "graph": [
+              1
+            ],
+            "max": 1,
+            "average": 1
+          }
+        },
+        "selectors": {
+          "total": 1,
+          "type": 0,
+          "class": 1,
+          "id": 0,
+          "pseudoClass": 0,
+          "pseudoElement": 1,
+          "values": [
+            ".bar::before"
+          ],
+          "specificity": {
+            "max": 11,
+            "average": 11
+          }
+        },
+        "declarations": {
+          "total": 1,
+          "unique": 1,
+          "properties": {
+            "content": [
+              "\"bar on medium\""
+            ]
+          }
+        }
+      }
+    ]
+  }
+}

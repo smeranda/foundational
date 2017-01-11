@@ -1,0 +1,1 @@
+body{background:red;display:-ms-flexbox;display:flex}.bar:before{content:"bar on small"}.test{color:#33}@media screen and (min-width:769px){.foo:before{content:"foo on medium"}.bar:before{content:"bar on medium"}}

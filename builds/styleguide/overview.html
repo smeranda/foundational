@@ -1,0 +1,25 @@
+<h1 class="sg" name="local-styleguide">Local Styleguide</h1>
+<p class="sg">All things related to supporting the styleguide are mentioned here.</p>
+<h2 class="sg" name="helpful-resources">Helpful Resources</h2>
+<ul>
+<li class="sg"><a href="https://github.com/kss-node/kss/blob/spec/SPEC.md" class="sg">Knyle Style Sheets Documentation</a> <em>(Not perfect, but best I&apos;ve found)</em></li>
+<li class="sg"><a href="http://styleguide.sc5.io/" class="sg">SC5 Styleguide</a> <em>(Demo available)</em></li>
+<li class="sg"><a href="https://github.com/SC5/sc5-styleguide" class="sg">SC5 Styleguide Repo</a> <em>(Further documentation on SC5 build options)</em></li>
+<li class="sg"><a href="http://warpspire.com/kss/syntax/" class="sg">Original KSS Documentation</a> <em>(Lacks detail)</em></li>
+<li class="sg"><a href="https://www.alleyinteractive.com/news/advanced-techniques-for-the-sc5-styleguide-generator/" class="sg">Advanced techniques for the SC5 styleguide generator</a></li>
+</ul>
+<h2 class="sg" name="markup">Markup</h2>
+<p class="sg">One should markup all styles in the <code>SCSS</code> files directly. This keeps ties the intentionality of the CSS rules with their actual usage.</p>
+<p class="sg">The KSS documentation is sparse around the interwebs. Furthermore, the styleguide has changed overtime. Here are some markup rules of consistency.</p>
+<h3 class="sg" name="a-major-section">A Major Section</h3>
+<p class="sg">Each major section should be split off intos its own corresponding <code>SCSS</code> file. For example, this markup is found in <code>buttons.scss</code>.</p>
+<div hljs="">// Section Name
+//
+// Short description of this section. What makes it unique. When would one 
+// use it?
+//
+// Markup: &lt;element class=&quot;{$modifiers}&quot;&gt;YoLo!&lt;/element&gt;
+//
+// Styleguide 1.0
+//
+</div>

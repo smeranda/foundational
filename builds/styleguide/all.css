@@ -1,0 +1,15 @@
+html {
+  background-image: url("http://basehold.it/i/24"); }
+
+/** @define cta-button */
+.cta-button {
+  background-color: blue;
+  color: white;
+  font-weight: bold;
+  padding: 25px; }
+  .cta-button--orange {
+    background-color: orange; }
+  .cta-button--yellow {
+    background-color: yellow; }
+  .cta-button:hover {
+    background-color: black; }
